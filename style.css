@@ -1812,8 +1812,8 @@ input[type=submit]:focus {
   margin-bottom: 0;
 }
 @media screen and (max-width: 767px) {
-  .header-contact .header-contact-details {
-    display: none;
+  span.contact-label {
+    display: none !important;
   }
 }
 @media screen and (max-width: 575px) {
