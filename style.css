@@ -1940,7 +1940,10 @@ input[type=submit]:focus {
 }
 @media screen and (max-width: 575px) {
   .site-logo img {
-    min-width: 170% !important;
+    min-width: 60px !important;
+  }
+  .top-header .top-header-inner {
+    display: flex;
   }
 }
 
