@@ -1938,11 +1938,6 @@ input[type=submit]:focus {
 .site-logo a:hover img, .site-logo a:focus img, .site-logo a:active img {
   opacity: 0.5;
 }
-@media screen and (max-width: 575px) {
-  .site-logo img {
-    /* max-width: 80px; */
-  }
-}
 
 /*--------------------------------------------------------------
 >>> Main Header Menu
