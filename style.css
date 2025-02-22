@@ -1990,7 +1990,7 @@ input[type=submit]:focus {
   display: none;
 }
 .navigation-container ul > li > a {
-  color: #ffffff;
+  color: #223645;
   display: inline-block;
   font-size: 16px;
   padding: 20px 0;
@@ -2484,7 +2484,7 @@ input[type=submit]:focus {
   margin-right: 10px;
 }
 .mobile-menu-container .slicknav_menu .slicknav_menutxt {
-  color: #FFF;
+  color: #7a7a7a;
   text-shadow: none;
   font-weight: normal;
   font-size: 16px;
@@ -2633,7 +2633,7 @@ input[type=submit]:focus {
   display: none;
 }
 .slicknav_btn .slicknav_icon span {
-  background-color: #FFF;
+  background-color: #000000;
   box-shadow: none;
   display: none;
   position: absolute;
@@ -6807,3 +6807,17 @@ input[type=submit]:focus {
 }
 
 /*# sourceMappingURL=style.css.map */
+.fixed-header .mobile-menu-container .slicknav_menu .slicknav_menutxt {
+  color: #212121 !important;
+}
+.fixed-header .mobile-menu-container .slicknav_btn .slicknav_icon span:first-child:before, .fixed-header .mobile-menu-container .slicknav_btn .slicknav_icon span:first-child:after {
+  background-color: #0c0c0c !important;
+}
+.slicknav_btn .slicknav_icon span:first-child:after {
+ 
+  background: black !important;
+}
+.slicknav_btn .slicknav_icon span:first-child:before {
+
+  background: black !important;
+}
